@@ -1,0 +1,10 @@
+<view class="marquee" wx:if="{{text}}">
+    <view class="marquee_box">
+        <view class='marquee_logo'>
+            <image src='/images/broadcast.png' mode='widthFix' style='width: 20px; height: 20px;'></image>
+        </view>
+        <view class="marquee_text" style="{{orientation}}:{{marqueeDistance}}px; font-size: {{size}}px;">
+            {{text}}
+        </view>
+    </view>
+</view>

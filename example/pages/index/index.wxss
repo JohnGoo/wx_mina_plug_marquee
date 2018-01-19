@@ -1,0 +1,27 @@
+/* 跑马灯 */
+.marquee {
+  display: block;
+  width: 100%;
+  height: 26px;
+  line-height: 26px;
+  background-color: #FEF7B4; 
+}
+
+.marquee_box {
+  width: 100%;
+  position: relative;
+}
+
+.marquee_logo {
+  position: absolute;
+  height: 26px;
+  padding: 3px;
+  z-index: 100;
+  box-sizing: border-box;
+  background-color: #FEF7B4; 
+}
+.marquee_text {
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+}
